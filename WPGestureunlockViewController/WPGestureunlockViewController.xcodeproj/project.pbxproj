@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760A51661D6FD549005514AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A51651D6FD549005514AA /* main.m */; };
+		760A51691D6FD549005514AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A51681D6FD549005514AA /* AppDelegate.m */; };
+		760A516C1D6FD549005514AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A516B1D6FD549005514AA /* ViewController.m */; };
+		760A516F1D6FD549005514AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760A516D1D6FD549005514AA /* Main.storyboard */; };
+		760A51711D6FD549005514AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760A51701D6FD549005514AA /* Assets.xcassets */; };
+		760A51741D6FD549005514AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760A51721D6FD549005514AA /* LaunchScreen.storyboard */; };
+		760A517F1D6FD549005514AA /* WPGestureunlockViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A517E1D6FD549005514AA /* WPGestureunlockViewControllerTests.m */; };
+		760A518A1D6FD549005514AA /* WPGestureunlockViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A51891D6FD549005514AA /* WPGestureunlockViewControllerUITests.m */; };
+		760A51991D7560C3005514AA /* WPGestureunlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A51981D7560C3005514AA /* WPGestureunlockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		760A517B1D6FD549005514AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 760A51591D6FD549005514AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760A51601D6FD549005514AA;
+			remoteInfo = WPGestureunlockViewController;
+		};
+		760A51861D6FD549005514AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 760A51591D6FD549005514AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760A51601D6FD549005514AA;
+			remoteInfo = WPGestureunlockViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		760A51611D6FD549005514AA /* WPGestureunlockViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPGestureunlockViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A51651D6FD549005514AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		760A51671D6FD549005514AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		760A51681D6FD549005514AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		760A516A1D6FD549005514AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		760A516B1D6FD549005514AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		760A516E1D6FD549005514AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		760A51701D6FD549005514AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		760A51731D6FD549005514AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		760A51751D6FD549005514AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760A517A1D6FD549005514AA /* WPGestureunlockViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPGestureunlockViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A517E1D6FD549005514AA /* WPGestureunlockViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGestureunlockViewControllerTests.m; sourceTree = "<group>"; };
+		760A51801D6FD549005514AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760A51851D6FD549005514AA /* WPGestureunlockViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPGestureunlockViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A51891D6FD549005514AA /* WPGestureunlockViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGestureunlockViewControllerUITests.m; sourceTree = "<group>"; };
+		760A518B1D6FD549005514AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760A51971D7560C3005514AA /* WPGestureunlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPGestureunlockView.h; sourceTree = "<group>"; };
+		760A51981D7560C3005514AA /* WPGestureunlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGestureunlockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760A515E1D6FD549005514AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51771D6FD549005514AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51821D6FD549005514AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760A51581D6FD549005514AA = {
+			isa = PBXGroup;
+			children = (
+				760A51631D6FD549005514AA /* WPGestureunlockViewController */,
+				760A517D1D6FD549005514AA /* WPGestureunlockViewControllerTests */,
+				760A51881D6FD549005514AA /* WPGestureunlockViewControllerUITests */,
+				760A51621D6FD549005514AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		760A51621D6FD549005514AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760A51611D6FD549005514AA /* WPGestureunlockViewController.app */,
+				760A517A1D6FD549005514AA /* WPGestureunlockViewControllerTests.xctest */,
+				760A51851D6FD549005514AA /* WPGestureunlockViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760A51631D6FD549005514AA /* WPGestureunlockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				760A51671D6FD549005514AA /* AppDelegate.h */,
+				760A51681D6FD549005514AA /* AppDelegate.m */,
+				760A516A1D6FD549005514AA /* ViewController.h */,
+				760A516B1D6FD549005514AA /* ViewController.m */,
+				760A51971D7560C3005514AA /* WPGestureunlockView.h */,
+				760A51981D7560C3005514AA /* WPGestureunlockView.m */,
+				760A516D1D6FD549005514AA /* Main.storyboard */,
+				760A51701D6FD549005514AA /* Assets.xcassets */,
+				760A51721D6FD549005514AA /* LaunchScreen.storyboard */,
+				760A51751D6FD549005514AA /* Info.plist */,
+				760A51641D6FD549005514AA /* Supporting Files */,
+			);
+			path = WPGestureunlockViewController;
+			sourceTree = "<group>";
+		};
+		760A51641D6FD549005514AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				760A51651D6FD549005514AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		760A517D1D6FD549005514AA /* WPGestureunlockViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				760A517E1D6FD549005514AA /* WPGestureunlockViewControllerTests.m */,
+				760A51801D6FD549005514AA /* Info.plist */,
+			);
+			path = WPGestureunlockViewControllerTests;
+			sourceTree = "<group>";
+		};
+		760A51881D6FD549005514AA /* WPGestureunlockViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				760A51891D6FD549005514AA /* WPGestureunlockViewControllerUITests.m */,
+				760A518B1D6FD549005514AA /* Info.plist */,
+			);
+			path = WPGestureunlockViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760A51601D6FD549005514AA /* WPGestureunlockViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760A518E1D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewController" */;
+			buildPhases = (
+				760A515D1D6FD549005514AA /* Sources */,
+				760A515E1D6FD549005514AA /* Frameworks */,
+				760A515F1D6FD549005514AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPGestureunlockViewController;
+			productName = WPGestureunlockViewController;
+			productReference = 760A51611D6FD549005514AA /* WPGestureunlockViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		760A51791D6FD549005514AA /* WPGestureunlockViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760A51911D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewControllerTests" */;
+			buildPhases = (
+				760A51761D6FD549005514AA /* Sources */,
+				760A51771D6FD549005514AA /* Frameworks */,
+				760A51781D6FD549005514AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				760A517C1D6FD549005514AA /* PBXTargetDependency */,
+			);
+			name = WPGestureunlockViewControllerTests;
+			productName = WPGestureunlockViewControllerTests;
+			productReference = 760A517A1D6FD549005514AA /* WPGestureunlockViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		760A51841D6FD549005514AA /* WPGestureunlockViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760A51941D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewControllerUITests" */;
+			buildPhases = (
+				760A51811D6FD549005514AA /* Sources */,
+				760A51821D6FD549005514AA /* Frameworks */,
+				760A51831D6FD549005514AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				760A51871D6FD549005514AA /* PBXTargetDependency */,
+			);
+			name = WPGestureunlockViewControllerUITests;
+			productName = WPGestureunlockViewControllerUITests;
+			productReference = 760A51851D6FD549005514AA /* WPGestureunlockViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760A51591D6FD549005514AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					760A51601D6FD549005514AA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					760A51791D6FD549005514AA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 760A51601D6FD549005514AA;
+					};
+					760A51841D6FD549005514AA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 760A51601D6FD549005514AA;
+					};
+				};
+			};
+			buildConfigurationList = 760A515C1D6FD549005514AA /* Build configuration list for PBXProject "WPGestureunlockViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 760A51581D6FD549005514AA;
+			productRefGroup = 760A51621D6FD549005514AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760A51601D6FD549005514AA /* WPGestureunlockViewController */,
+				760A51791D6FD549005514AA /* WPGestureunlockViewControllerTests */,
+				760A51841D6FD549005514AA /* WPGestureunlockViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		760A515F1D6FD549005514AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760A51741D6FD549005514AA /* LaunchScreen.storyboard in Resources */,
+				760A51711D6FD549005514AA /* Assets.xcassets in Resources */,
+				760A516F1D6FD549005514AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51781D6FD549005514AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51831D6FD549005514AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760A515D1D6FD549005514AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760A516C1D6FD549005514AA /* ViewController.m in Sources */,
+				760A51991D7560C3005514AA /* WPGestureunlockView.m in Sources */,
+				760A51691D6FD549005514AA /* AppDelegate.m in Sources */,
+				760A51661D6FD549005514AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51761D6FD549005514AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760A517F1D6FD549005514AA /* WPGestureunlockViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A51811D6FD549005514AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760A518A1D6FD549005514AA /* WPGestureunlockViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		760A517C1D6FD549005514AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 760A51601D6FD549005514AA /* WPGestureunlockViewController */;
+			targetProxy = 760A517B1D6FD549005514AA /* PBXContainerItemProxy */;
+		};
+		760A51871D6FD549005514AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 760A51601D6FD549005514AA /* WPGestureunlockViewController */;
+			targetProxy = 760A51861D6FD549005514AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		760A516D1D6FD549005514AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760A516E1D6FD549005514AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		760A51721D6FD549005514AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760A51731D6FD549005514AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		760A518C1D6FD549005514AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760A518D1D6FD549005514AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		760A518F1D6FD549005514AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPGestureunlockViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		760A51901D6FD549005514AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPGestureunlockViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		760A51921D6FD549005514AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPGestureunlockViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPGestureunlockViewController.app/WPGestureunlockViewController";
+			};
+			name = Debug;
+		};
+		760A51931D6FD549005514AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPGestureunlockViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPGestureunlockViewController.app/WPGestureunlockViewController";
+			};
+			name = Release;
+		};
+		760A51951D6FD549005514AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPGestureunlockViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPGestureunlockViewController;
+			};
+			name = Debug;
+		};
+		760A51961D6FD549005514AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPGestureunlockViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wupeng.WPGestureunlockViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPGestureunlockViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760A515C1D6FD549005514AA /* Build configuration list for PBXProject "WPGestureunlockViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A518C1D6FD549005514AA /* Debug */,
+				760A518D1D6FD549005514AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760A518E1D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A518F1D6FD549005514AA /* Debug */,
+				760A51901D6FD549005514AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		760A51911D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A51921D6FD549005514AA /* Debug */,
+				760A51931D6FD549005514AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		760A51941D6FD549005514AA /* Build configuration list for PBXNativeTarget "WPGestureunlockViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A51951D6FD549005514AA /* Debug */,
+				760A51961D6FD549005514AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 760A51591D6FD549005514AA /* Project object */;
+}
